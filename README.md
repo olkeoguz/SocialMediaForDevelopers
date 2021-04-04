@@ -7,6 +7,10 @@ npm install
 cd client
 npm install
 
+### Mongo connection setup
+
+Edit your /config/default.json file to include the correct MongoDB URI 
+
 # Run both Express & React from root
 npm run dev
 
