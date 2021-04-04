@@ -13,8 +13,7 @@ const User = require('../../models/User');
 // @access   Private
 router.get('/', auth, async (req, res) => {
   try {
-    const user = await User.findById(req.user.id).select('-password'); // Don't select password.
-    //req.user'ı auth middleware'inde req.user = decoded.user dediğimiz için kullanabiliyoruz.
+    const user = await User.findById(req.user.id).select('-password');
     res.json(user);
   } catch (err) {
     console.error(err.message);
@@ -61,7 +60,7 @@ router.post(
       //Return jsonwebtoken
       const payload = {
         user: {
-          id: user.id, // No need to _id for mongoose
+          id: user.id, 
         },
       };
 

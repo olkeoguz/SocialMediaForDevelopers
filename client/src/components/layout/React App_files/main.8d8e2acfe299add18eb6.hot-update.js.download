@@ -1,0 +1,15 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/styles.js":
+/*!***********************!*\
+  !*** ./src/styles.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\oguzo\\OneDrive\\Masaüstü\\React-Class\\material-ui\\material-ui-demo\\src\\styles.js: Unexpected token, expected \",\" (17:2)\n\n\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   }\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m   card\u001b[33m:\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m   cardMedia\u001b[33m:\u001b[39m{\u001b[0m\n    at _temp._raise (C:\\Users\\oguzo\\OneDrive\\Masaüstü\\React-Class\\material-ui\\material-ui-demo\\node_modules\\@babel\\parser\\lib\\index.js:776:17)\n    at _temp.raiseWithData (C:\\Users\\oguzo\\OneDrive\\Masaüstü\\React-Class\\material-ui\\material-ui-demo\\node_modules\\@babel\\parser\\lib\\index.js:769:17)\n    at _temp.raise (C:\\Users\\oguzo\\OneDrive\\Masaüstü\\React-Class\\material-ui\\material-ui-demo\\node_modules\\@babel\\parser\\lib\\index.js:737:17)\n    at _temp.unexpected (C:\\Users\\oguzo\\OneDrive\\Masaüstü\\React-Class\\material-ui\\material-ui-demo\\node_modules\\@babel\\parser\\lib\\index.js:9686:16)\n    at _temp.expect (C:\\Users\\oguzo\\OneDrive\\Masaüstü\\React-Class\\material-ui\\material-ui-demo\\node_modules\\@babel\\parser\\lib\\index.js:9672:28)\n    at _temp.parseObjectLike (C:\\Users\\oguzo\\OneDrive\\Masaüstü\\React-Class\\material-ui\\material-ui-demo\\node_modules\\@babel\\parser\\lib\\index.js:11426:14)\n    at _temp.parseExprAtom (C:\\Users\\oguzo\\OneDrive\\Masaüstü\\React-Class\\material-ui\\material-ui-demo\\node_modules\\@babel\\parser\\lib\\index.js:10994:23)\n    at _temp.parseExprAtom (C:\\Users\\oguzo\\OneDrive\\Masaüstü\\React-Class\\material-ui\\material-ui-demo\\node_modules\\@babel\\parser\\lib\\index.js:5174:20)\n    at _temp.parseExprSubscripts (C:\\Users\\oguzo\\OneDrive\\Masaüstü\\React-Class\\material-ui\\material-ui-demo\\node_modules\\@babel\\parser\\lib\\index.js:10655:23)\n    at _temp.parseUpdate (C:\\Users\\oguzo\\OneDrive\\Masaüstü\\React-Class\\material-ui\\material-ui-demo\\node_modules\\@babel\\parser\\lib\\index.js:10635:21)");
+
+/***/ })
+
+})
+//# sourceMappingURL=main.8d8e2acfe299add18eb6.hot-update.js.map

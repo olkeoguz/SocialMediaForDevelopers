@@ -31,9 +31,6 @@ export const getCurrentProfile = () => async (dispatch) => {
 //Get all profiles
 
 export const getProfiles = () => async (dispatch) => {
-  // dispatch({
-  //   type: CLEAR_PROFILE,
-  // }); // check if this is necessary
   try {
     const res = await axios.get('/api/profile');
     dispatch({
@@ -240,4 +237,8 @@ export const deleteAccount = () => async (dispatch) => {
       });
     }
   }
+};
+
+export const clearProfile = () => (dispatch) => {
+  dispatch({ type: CLEAR_PROFILE });
 };

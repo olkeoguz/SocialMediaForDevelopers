@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Spinner from '../layout/Spinner';
-import { getProfileById } from '../../actions/profile';
+import { getProfileById, clearProfile } from '../../actions/profile';
 import { Link, useParams } from 'react-router-dom';
 import ProfileTop from './ProfileTop';
 import ProfileAbout from './ProfileAbout';
@@ -19,6 +19,9 @@ const Profile = () => {
 
   useEffect(() => {
     dispatch(getProfileById(id));
+    return () => {
+      dispatch(clearProfile()); //added
+    };
   }, [dispatch, id]);
 
   if (profile === null || loading) {

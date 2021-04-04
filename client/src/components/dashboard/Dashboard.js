@@ -17,7 +17,6 @@ const Dashboard = () => {
     dispatch(getCurrentProfile());
   }, [dispatch]);
 
-  // console.log(profile);
 
   return loading && profile === null ? (
     <Spinner />
